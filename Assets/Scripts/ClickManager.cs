@@ -11,30 +11,36 @@ public class ClickManager : MonoBehaviour {
     }
 
     private void TryGettingItem(ItemData item) {
-        if (item.requiredItemID == -1 || GameManager.collectedItems.Contains(item.requiredItemID)) {
-            if (!GameManager.collectedItems.Contains(item.itemID)) {
-                GameManager.collectedItems.Add(item.itemID);
-                GameManager.RegisterItem(item.itemID, item.itemName);
-
-                if (item.itemNotificationImage != null) {
-                    NotificationManager.instance.ShowNotification(item.itemNotificationImage);
-                }
-            }
+        if (item.itemID != GameManager.currentExpectedItemID) {
+            GameManager.wrongClicks++;
+            Debug.Log($"Clique fora de ordem! ({GameManager.wrongClicks} erros | +{GameManager.wrongClicks * 5} min)");
+            return;
         }
-        else {
-            Debug.Log($"Você precisa de outro item antes de pegar {item.itemName}.");
+
+        if (!GameManager.collectedItems.Contains(item.itemID)) {
+            GameManager.collectedItems.Add(item.itemID);
+            GameManager.RegisterItem(item.itemID, item.itemName, item);
+
+            if (item.itemNotificationImage != null) {
+                NotificationManager.instance.ShowNotification(item.itemNotificationImage);
+                Debug.Log($"Item correto: {item.itemName}.");
+            }
+
+            GameManager.currentExpectedItemID++; // AvanÃ§a para o prÃ³ximo item esperado
         }
     }
 
     private void TryUsingExit(ExitData exit) {
         foreach (int requiredID in exit.requiredItemIDs) {
             if (!GameManager.collectedItems.Contains(requiredID)) {
-                Debug.Log("Você ainda não completou todas as ações necessárias para sair desta área.");
+                GameManager.wrongClicks++; // Penaliza como clique errado
+                Debug.Log($"VocÃª tentou sair antes da hora! ({GameManager.wrongClicks} erros | +{GameManager.wrongClicks * 5} min)");
+                NotificationManager.instance.ShowExitDeniedWarning();
                 return;
             }
         }
 
-        Debug.Log("Avançando para próxima cena...");
+        Debug.Log("AvanÃ§ando para a prÃ³xima cena...");
         SceneManager.LoadScene(exit.nextSceneName);
     }
 }

@@ -7,13 +7,14 @@ public class NotificationManager : MonoBehaviour {
     public GameObject panel;
     public Image notificationImage;
 
+    [Header("Imagens de Aviso Personalizadas")]
+    public Sprite exitDeniedImage; // Nova imagem de aviso de saída negada
+
     private void Awake() {
         instance = this;
 
-        // Deixa o painel oculto no começo
         panel.SetActive(false);
 
-        // Ativa a imagem de aviso (caso esteja desativada no editor)
         if (notificationImage != null && !notificationImage.gameObject.activeSelf) {
             notificationImage.gameObject.SetActive(true);
         }
@@ -26,5 +27,14 @@ public class NotificationManager : MonoBehaviour {
 
     public void CloseNotification() {
         panel.SetActive(false);
+    }
+
+    public void ShowExitDeniedWarning() {
+        if (exitDeniedImage != null) {
+            ShowNotification(exitDeniedImage);
+        }
+        else {
+            Debug.LogWarning("exitDeniedImage não atribuída no NotificationManager.");
+        }
     }
 }
