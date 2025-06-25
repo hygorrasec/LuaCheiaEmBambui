@@ -11,6 +11,18 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/Maric\xE1.unity"
     guid: b3834c6c6cd726443b46599c92f4fe54
+  - enabled: 1
+    path: "Assets/Scenes/Itaipua\xE7u.unity"
+    guid: 927ef85950477f04ba45013338d84aec
+  - enabled: 1
+    path: "Assets/Scenes/Bambu\xED.unity"
+    guid: 89dff9ce95ec46746ae246f0ad43be94
+  - enabled: 1
+    path: "Assets/Scenes/Salvou Maric\xE1.unity"
+    guid: 1af3597a1cb75af489f5f50ff780c2f4
+  - enabled: 1
+    path: "Assets/Scenes/Invas\xE3o do Lobisomem.unity"
+    guid: 4e38f538099ab1641aa5e1b609c78176
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

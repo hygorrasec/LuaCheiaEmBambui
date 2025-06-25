@@ -8,7 +8,7 @@ public class NotificationManager : MonoBehaviour {
     public Image notificationImage;
 
     [Header("Imagens de Aviso Personalizadas")]
-    public Sprite exitDeniedImage; // Nova imagem de aviso de saída negada
+    public Sprite exitDeniedImage; // Nova imagem de aviso de saï¿½da negada
 
     private void Awake() {
         instance = this;
@@ -34,7 +34,7 @@ public class NotificationManager : MonoBehaviour {
             ShowNotification(exitDeniedImage);
         }
         else {
-            Debug.LogWarning("exitDeniedImage não atribuída no NotificationManager.");
+            Debug.LogWarning("exitDeniedImage nÃ£o atribuÃ­da no NotificationManager.");
         }
     }
 }

@@ -7,7 +7,8 @@ public class GameManager : MonoBehaviour {
     public static Dictionary<int, ItemData> itemMeta = new Dictionary<int, ItemData>();
 
     public static int wrongClicks = 0;
-    public static int currentExpectedItemID = 1; // Começa esperando o item 1
+    public static int savedMinutesPassed = 0;
+    public static int currentExpectedItemID = 1;
 
     public static void RegisterItem(int itemID, string itemName, ItemData data = null) {
         if (!itemNames.ContainsKey(itemID)) {
@@ -17,5 +18,12 @@ public class GameManager : MonoBehaviour {
         if (data != null && !itemMeta.ContainsKey(itemID)) {
             itemMeta[itemID] = data;
         }
+    }
+
+    public static void ResetSceneProgress() {
+        collectedItems.Clear();
+        itemMeta.Clear();
+        currentExpectedItemID = 1;
+        Debug.Log("Progresso da cena reiniciado. Esperando pelo item com ordem 1.");
     }
 }
