@@ -173,10 +173,10 @@ MonoBehaviour:
   itemID: 17
   requiredItemID: -1
   itemName: Ponte sobre o rio
-  itemNotificationImage: {fileID: 4617620551454551896, guid: 1e8d7d14a9ba0794dbe09630a206cea0, type: 3}
+  itemNotificationImage: {fileID: -1793673667676320996, guid: e655db4a140e7964d82d94e2aa329702, type: 3}
   sceneName: Ponte sobre o rio
   sequenceOrder: 17
-  correctSound: {fileID: 0}
+  correctSound: {fileID: 8300000, guid: 9dba5561dc972ff45aeb0947d10bc9a4, type: 3}
 --- !u!114 &103581272
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -219,7 +219,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.4484519, g: 0.990566, b: 0.2663314, a: 0.3254902}
+  m_Color: {r: 0.4484519, g: 0.990566, b: 0.2663314, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -785,10 +785,10 @@ MonoBehaviour:
   itemID: 14
   requiredItemID: -1
   itemName: Banco com o velho sentado
-  itemNotificationImage: {fileID: -5762400264667498732, guid: f5b3fdada1bf06645a3bf668bbaf7377, type: 3}
+  itemNotificationImage: {fileID: 299216326859058188, guid: bc22371ef0cc51844bec6e25cc8096aa, type: 3}
   sceneName: Banco com o velho sentado
   sequenceOrder: 14
-  correctSound: {fileID: 0}
+  correctSound: {fileID: 8300000, guid: 5d5484116c8d91148b80dd64887d2449, type: 3}
 --- !u!114 &790038926
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -831,7 +831,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.4484519, g: 0.990566, b: 0.2663314, a: 0.3254902}
+  m_Color: {r: 0.4484519, g: 0.990566, b: 0.2663314, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1235,7 +1235,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.4484519, g: 0.990566, b: 0.2663314, a: 0.3254902}
+  m_Color: {r: 0.4484519, g: 0.990566, b: 0.2663314, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1275,10 +1275,10 @@ MonoBehaviour:
   itemID: 16
   requiredItemID: -1
   itemName: Corredores da trilha
-  itemNotificationImage: {fileID: 4617620551454551896, guid: 1e8d7d14a9ba0794dbe09630a206cea0, type: 3}
+  itemNotificationImage: {fileID: 2898024166521169613, guid: d2376993334f3a941be8fbb612cd7251, type: 3}
   sceneName: Corredores da trilha
   sequenceOrder: 16
-  correctSound: {fileID: 0}
+  correctSound: {fileID: 8300000, guid: 07f723d3a428693429b7098fc70261c9, type: 3}
 --- !u!1 &1760878942
 GameObject:
   m_ObjectHideFlags: 0
@@ -1333,10 +1333,10 @@ MonoBehaviour:
   itemID: 15
   requiredItemID: -1
   itemName: Quiosque
-  itemNotificationImage: {fileID: -5762400264667498732, guid: f5b3fdada1bf06645a3bf668bbaf7377, type: 3}
+  itemNotificationImage: {fileID: 4914717629211104899, guid: b017719093ee1d64ba850a09594b522d, type: 3}
   sceneName: Quiosque
   sequenceOrder: 15
-  correctSound: {fileID: 0}
+  correctSound: {fileID: 8300000, guid: a375a933eaf8e3140bb7210c80336198, type: 3}
 --- !u!114 &1760878945
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1379,7 +1379,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.4484519, g: 0.990566, b: 0.2663314, a: 0.3254902}
+  m_Color: {r: 0.4484519, g: 0.990566, b: 0.2663314, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1457,9 +1457,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nextSceneName: "Salvou Maric\xE1"
   requiredItemIDs: 0e0000000f0000001000000011000000
-  exitNotificationImage: {fileID: 0}
-  soundText: {fileID: 0}
-  exitSound: {fileID: 0}
+  exitNotificationImage: {fileID: -8850196059629776380, guid: 8a30c6a86a00f014b8acb05b6912709f, type: 3}
+  soundText: {fileID: 8300000, guid: a7dfe2d75ebf75e4c8a53cc2d337d313, type: 3}
 --- !u!114 &1888244211
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1502,7 +1501,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.4484519, g: 0.990566, b: 0.2663314, a: 0.3254902}
+  m_Color: {r: 0.4484519, g: 0.990566, b: 0.2663314, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

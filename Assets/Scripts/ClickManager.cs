@@ -69,11 +69,6 @@ public class ClickManager : MonoBehaviour {
             waitTime = Mathf.Max(waitTime, exit.soundText.length);
         }
 
-        if (exit.exitSound != null) {
-            NotificationManager.instance.PlayAudioIndependent(exit.exitSound, 0.1f);
-            waitTime = Mathf.Max(waitTime, exit.exitSound.length);
-        }
-
         yield return new WaitForSeconds(waitTime + 0.1f);
 
         if (NotificationManager.instance != null) {

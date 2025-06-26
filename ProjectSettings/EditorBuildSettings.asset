@@ -23,6 +23,12 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/Invas\xE3o do Lobisomem.unity"
     guid: 4e38f538099ab1641aa5e1b609c78176
+  - enabled: 1
+    path: Assets/Scenes/Bar.unity
+    guid: 4737520c5fa51c742908a3e0bba56c5c
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 2d597a1cc0e0c444cb1bb730bf41fedb
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

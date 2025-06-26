@@ -219,7 +219,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.4484519, g: 0.990566, b: 0.2663314, a: 0.3254902}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -831,7 +831,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.4484519, g: 0.990566, b: 0.2663314, a: 0.3529412}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1132,7 +1132,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.4484519, g: 0.990566, b: 0.2663314, a: 0.3254902}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1511,7 +1511,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.4484519, g: 0.990566, b: 0.2663314, a: 0.3254902}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1591,7 +1591,6 @@ MonoBehaviour:
   requiredItemIDs: 01000000020000000300000004000000
   exitNotificationImage: {fileID: -3265556539315219338, guid: 4f061f17ed1db594c94c9eb5e9f703c1, type: 3}
   soundText: {fileID: 8300000, guid: e09b10635b8fb714f852477d592c8c15, type: 3}
-  exitSound: {fileID: 8300000, guid: 793785ee2487e0b40a883e7ab4afb5f5, type: 3}
 --- !u!114 &1888244211
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1634,7 +1633,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.4484519, g: 0.990566, b: 0.2663314, a: 0.3254902}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1738,73 +1737,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &4849208479772904731
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 20298628710817178, guid: ad45385013cc7094f86b7a138ee8fd1c, type: 3}
-      propertyPath: m_Name
-      value: MusicManager
-      objectReference: {fileID: 0}
-    - target: {fileID: 6062202745501404941, guid: ad45385013cc7094f86b7a138ee8fd1c, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.8689281
-      objectReference: {fileID: 0}
-    - target: {fileID: 6062202745501404941, guid: ad45385013cc7094f86b7a138ee8fd1c, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.62938166
-      objectReference: {fileID: 0}
-    - target: {fileID: 6062202745501404941, guid: ad45385013cc7094f86b7a138ee8fd1c, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.06575964
-      objectReference: {fileID: 0}
-    - target: {fileID: 6062202745501404941, guid: ad45385013cc7094f86b7a138ee8fd1c, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6062202745501404941, guid: ad45385013cc7094f86b7a138ee8fd1c, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6062202745501404941, guid: ad45385013cc7094f86b7a138ee8fd1c, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6062202745501404941, guid: ad45385013cc7094f86b7a138ee8fd1c, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6062202745501404941, guid: ad45385013cc7094f86b7a138ee8fd1c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6062202745501404941, guid: ad45385013cc7094f86b7a138ee8fd1c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6062202745501404941, guid: ad45385013cc7094f86b7a138ee8fd1c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8277906241651135637, guid: ad45385013cc7094f86b7a138ee8fd1c, type: 3}
-      propertyPath: musics.Array.data[2].sceneName
-      value: "Itaipua\xE7\xFA"
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: ad45385013cc7094f86b7a138ee8fd1c, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1707533815}
-  - {fileID: 4849208479772904731}
   - {fileID: 519420032}
   - {fileID: 1950939747}
   - {fileID: 586883826}

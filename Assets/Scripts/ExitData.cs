@@ -7,7 +7,4 @@ public class ExitData : MonoBehaviour {
 
     [Header("Fala do ônibus")]
     public AudioClip soundText;
-
-    [Header("Som ao sair da cena")]
-    public AudioClip exitSound;
 }

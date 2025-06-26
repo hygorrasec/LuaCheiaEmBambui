@@ -8,11 +8,12 @@ public class MusicManager : MonoBehaviour {
     public class SceneMusic {
         public string sceneName;
         public AudioClip musicClip;
+        [Range(0f, 1f)] public float volume = 0.5f; // Volume individual
     }
 
     [Header("Configuração")]
     public SceneMusic[] musics;
-    public float volume = 0.5f;
+    public float defaultVolume = 0.5f; // Fallback se não encontrar a cena
 
     private AudioSource audioSource;
 
@@ -28,7 +29,6 @@ public class MusicManager : MonoBehaviour {
         audioSource = gameObject.AddComponent<AudioSource>();
         audioSource.loop = true;
         audioSource.playOnAwake = false;
-        audioSource.volume = volume;
 
         SceneManager.sceneLoaded += OnSceneLoaded;
     }
@@ -46,6 +46,7 @@ public class MusicManager : MonoBehaviour {
             if (entry.sceneName == sceneName && entry.musicClip != null) {
                 if (audioSource.clip != entry.musicClip) {
                     audioSource.clip = entry.musicClip;
+                    audioSource.volume = entry.volume;
                     audioSource.Play();
                 }
                 return;
