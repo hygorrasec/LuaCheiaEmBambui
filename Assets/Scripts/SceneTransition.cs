@@ -8,6 +8,12 @@ public class SceneTransition : MonoBehaviour {
     public float fadeDuration = 1f;
 
     private void Start() {
+        // Ativa o CanvasTransition se estiver desativado
+        GameObject canvasTransition = GameObject.Find("CanvasTransition");
+        if (canvasTransition != null && !canvasTransition.activeSelf) {
+            canvasTransition.SetActive(true);
+        }
+
         StartCoroutine(FadeIn());
     }
 

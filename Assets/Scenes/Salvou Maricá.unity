@@ -137,7 +137,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &198959692
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -372,6 +372,7 @@ GameObject:
   - component: {fileID: 519420030}
   - component: {fileID: 519420033}
   - component: {fileID: 519420034}
+  - component: {fileID: 519420035}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -519,6 +520,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 59e60b7c270d0244b8d670c8b8c2e9f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &519420035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c958d8f4821294a45978a2038529174b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &586883824
@@ -1156,6 +1169,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   panel: {fileID: 672920845}
   notificationImage: {fileID: 1484190539}
+  notificationBg: {fileID: 0}
+  closeButton: {fileID: 0}
   exitDeniedImage: {fileID: -1412945729244362386, guid: 0648298af00fd044c9664d62e458ba47, type: 3}
 --- !u!4 &1668612255
 Transform:
@@ -1475,10 +1490,10 @@ Transform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 519420032}
   - {fileID: 1950939747}
   - {fileID: 1668612255}
   - {fileID: 586883826}
-  - {fileID: 519420032}
   - {fileID: 619394802}
   - {fileID: 1217130696}
   - {fileID: 198959695}

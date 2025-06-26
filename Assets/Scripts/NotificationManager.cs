@@ -4,29 +4,87 @@ using UnityEngine.UI;
 public class NotificationManager : MonoBehaviour {
     public static NotificationManager instance;
 
-    public GameObject panel;
-    public Image notificationImage;
+    [SerializeField] private GameObject panel;
+    [SerializeField] private Image notificationImage;
+    [SerializeField] private Image notificationBg;
+    [SerializeField] private Button closeButton;
+    [SerializeField] private Sprite exitDeniedImage;
 
-    [Header("Imagens de Aviso Personalizadas")]
-    public Sprite exitDeniedImage; // Nova imagem de aviso de sa�da negada
+    private AudioSource currentNotificationAudio;
 
     private void Awake() {
+        if (instance != null && instance != this) {
+            Destroy(gameObject); // evita duplicata
+            return;
+        }
+
         instance = this;
+        DontDestroyOnLoad(gameObject); // persiste entre cenas
 
-        panel.SetActive(false);
+        if (panel != null)
+            panel.SetActive(false);
 
-        if (notificationImage != null && !notificationImage.gameObject.activeSelf) {
+        if (notificationImage != null && !notificationImage.gameObject.activeSelf)
             notificationImage.gameObject.SetActive(true);
+
+        if (notificationBg != null && !notificationBg.gameObject.activeSelf)
+            notificationBg.gameObject.SetActive(true);
+    }
+
+    public void PlayAudioIndependent(AudioClip clip, float volume = 1f) {
+        if (clip == null) return;
+
+        AudioSource tempAudio = gameObject.AddComponent<AudioSource>();
+        tempAudio.clip = clip;
+        tempAudio.volume = Mathf.Clamp01(volume);
+        tempAudio.Play();
+
+        Destroy(tempAudio, clip.length + 0.1f);
+    }
+
+    public void PlayNotificationAudio(AudioClip clip) {
+        if (clip == null) return;
+
+        if (currentNotificationAudio == null)
+            currentNotificationAudio = gameObject.AddComponent<AudioSource>();
+
+        currentNotificationAudio.clip = clip;
+        currentNotificationAudio.Play();
+    }
+
+    public void ShowNotification(Sprite imageToShow, bool disableCloseButton = false) {
+        if (notificationImage != null)
+            notificationImage.sprite = imageToShow;
+
+        if (notificationBg != null)
+            notificationBg.sprite = imageToShow;
+
+        if (panel != null)
+            panel.SetActive(true);
+
+        if (closeButton != null) {
+            closeButton.interactable = !disableCloseButton;
+            closeButton.gameObject.SetActive(!disableCloseButton);
+            Debug.Log($"CloseButton {(disableCloseButton ? "desativado" : "ativado")}.");
+        }
+        else {
+            Debug.LogWarning("⚠️ closeButton não atribuído no NotificationManager.");
         }
     }
 
-    public void ShowNotification(Sprite imageToShow) {
-        notificationImage.sprite = imageToShow;
-        panel.SetActive(true);
-    }
-
     public void CloseNotification() {
-        panel.SetActive(false);
+        if (panel != null)
+            panel.SetActive(false);
+
+        if (closeButton != null) {
+            closeButton.interactable = true;
+            closeButton.gameObject.SetActive(true);
+        }
+
+        if (currentNotificationAudio != null && currentNotificationAudio.isPlaying) {
+            currentNotificationAudio.Stop();
+            currentNotificationAudio.clip = null;
+        }
     }
 
     public void ShowExitDeniedWarning() {
@@ -34,7 +92,7 @@ public class NotificationManager : MonoBehaviour {
             ShowNotification(exitDeniedImage);
         }
         else {
-            Debug.LogWarning("exitDeniedImage não atribuída no NotificationManager.");
+            Debug.LogWarning("⚠️ exitDeniedImage não atribuída no NotificationManager.");
         }
     }
 }

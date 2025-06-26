@@ -55,10 +55,10 @@ public class GameClock : MonoBehaviour {
         int hour = baseHour + (totalMinutes / 60);
         int minute = totalMinutes % 60;
 
-        clockText.text = $"{hour:00}:{minute:00}h";
+        clockText.text = $"{hour:00}:{minute:00}h / 22:00h";
 
         // 🔥 VERIFICAÇÃO DE INVASÃO DO LOBISOMEM
-        if (!invasionTriggered && hour >= 18) {
+        if (!invasionTriggered && hour >= 22) {
             invasionTriggered = true;
             Debug.Log("⏰ Hora crítica atingida! Lobisomem está chegando...");
             SceneManager.LoadScene("Invasão do Lobisomem");
