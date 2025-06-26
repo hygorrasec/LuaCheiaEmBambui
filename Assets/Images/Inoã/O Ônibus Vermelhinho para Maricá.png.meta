@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a95eb9d49ca02fd4cb3f82abc508bf00
+guid: 4f061f17ed1db594c94c9eb5e9f703c1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 9198839714943270527
-    second: INOA - CHAVE DO BAR_0
+      213: -3265556539315219338
+    second: INOA - VERMELHINHO_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,13 +139,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: INOA - CHAVE DO BAR_0
+      name: INOA - VERMELHINHO_0
       rect:
         serializedVersion: 2
-        x: 129
-        y: 21
-        width: 1328
-        height: 910
+        x: 64
+        y: 45
+        width: 1340
+        height: 886
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f7ef2f2bbf7d8af70800000000000000
-      internalID: 9198839714943270527
+      spriteID: 674992011a96ea2d0800000000000000
+      internalID: -3265556539315219338
       vertices: []
       indices: 
       edges: []
@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      INOA - VERMELHINHO_0: -3265556539315219338
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
