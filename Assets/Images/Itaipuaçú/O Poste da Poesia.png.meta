@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: cf676c0461d136643bbd36af90822d16
+guid: b030dd39bbe0d8840ba2854afc13d917
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1448758348671018224
-    second: ITAIPUACU - AREIA_0
+      213: 5529783958125180199
+    second: ITAIPUACU - POSTE_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,13 +139,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ITAIPUACU - AREIA_0
+      name: ITAIPUACU - POSTE_0
       rect:
         serializedVersion: 2
         x: 129
         y: 98
         width: 1275
-        height: 833
+        height: 832
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 01b151e25f9f4ebe0800000000000000
-      internalID: -1448758348671018224
+      spriteID: 72574bc363dbdbc40800000000000000
+      internalID: 5529783958125180199
       vertices: []
       indices: 
       edges: []
@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ITAIPUACU - POSTE_0: 5529783958125180199
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -717,7 +717,7 @@ MonoBehaviour:
   itemID: 5
   requiredItemID: -1
   itemName: "Visita a Igreja de Maric\xE1"
-  itemNotificationImage: {fileID: -2042602279706350330, guid: 1559bcb1ac4718f4eb25484c7ebc637d, type: 3}
+  itemNotificationImage: {fileID: 6969182248065801185, guid: dc579d4554feb9c409ac5397759a46a9, type: 3}
   sceneName: "Visita a Igreja de Maric\xE1"
   sequenceOrder: 5
   correctSound: {fileID: 8300000, guid: 65328aa4e082c3041bc4bad60d8ca6e5, type: 3}
@@ -1036,7 +1036,7 @@ MonoBehaviour:
   itemID: 8
   requiredItemID: -1
   itemName: "Investiga\xE7\xE3o na Igreja"
-  itemNotificationImage: {fileID: -2042602279706350330, guid: 1559bcb1ac4718f4eb25484c7ebc637d, type: 3}
+  itemNotificationImage: {fileID: -2879608330887605151, guid: 31dea36f3341bd047b9184cbd63231fa, type: 3}
   sceneName: "Investiga\xE7\xE3o na Igreja"
   sequenceOrder: 8
   correctSound: {fileID: 8300000, guid: 89cb2500f07fcb8498ea1e717457d152, type: 3}
@@ -1228,7 +1228,7 @@ MonoBehaviour:
   itemID: 7
   requiredItemID: -1
   itemName: "Brilho na Rotat\xF3ria"
-  itemNotificationImage: {fileID: -2042602279706350330, guid: 1559bcb1ac4718f4eb25484c7ebc637d, type: 3}
+  itemNotificationImage: {fileID: 6802650823287289765, guid: 48a51b556e32fb14aa58b1313a75400f, type: 3}
   sceneName: "Brilho na Rotat\xF3ria"
   sequenceOrder: 7
   correctSound: {fileID: 8300000, guid: a8f8cad214979f548be7559004de0e20, type: 3}
@@ -1286,7 +1286,7 @@ MonoBehaviour:
   itemID: 6
   requiredItemID: -1
   itemName: Restaurante Mistura
-  itemNotificationImage: {fileID: -2042602279706350330, guid: 1559bcb1ac4718f4eb25484c7ebc637d, type: 3}
+  itemNotificationImage: {fileID: -1065700185490326338, guid: 9e88a67ae43f136419c529f8704b506d, type: 3}
   sceneName: Restaurante Mistura
   sequenceOrder: 6
   correctSound: {fileID: 8300000, guid: 47244771327ddaf43be00bb33b425cd7, type: 3}
@@ -1417,7 +1417,7 @@ GameObject:
   - component: {fileID: 1888244211}
   - component: {fileID: 1888244210}
   m_Layer: 5
-  m_Name: "O \xD4nibus Vermelhinho para Itaipua\xE7u"
+  m_Name: "O \xD4nibus Vermelhinho para Itaipua\xE7\xFA"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1454,9 +1454,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c7f79f80e7437c43824bc0b715e1c6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextSceneName: "Itaipua\xE7u"
+  nextSceneName: "Itaipua\xE7\xFA"
   requiredItemIDs: 05000000060000000700000008000000
-  exitNotificationImage: {fileID: -2042602279706350330, guid: 1559bcb1ac4718f4eb25484c7ebc637d, type: 3}
+  exitNotificationImage: {fileID: 4720167122798397946, guid: dbeb57726d061274086d87e05f9cadd5, type: 3}
   soundText: {fileID: 8300000, guid: b72b96231a17f06498773f937b083973, type: 3}
   exitSound: {fileID: 8300000, guid: 793785ee2487e0b40a883e7ab4afb5f5, type: 3}
 --- !u!114 &1888244211

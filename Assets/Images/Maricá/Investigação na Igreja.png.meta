@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: fe05301c848a40543b8d32b1ca4c5b01
+guid: 31dea36f3341bd047b9184cbd63231fa
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3596541869666515735
-    second: ITAIPUACU - RESTAURANTE_0
+      213: -2879608330887605151
+    second: "Investiga\xE7\xE3o na Igreja_0"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,13 +139,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ITAIPUACU - RESTAURANTE_0
+      name: "Investiga\xE7\xE3o na Igreja_0"
       rect:
         serializedVersion: 2
-        x: 129
-        y: 98
-        width: 1275
-        height: 833
+        x: 128
+        y: 96
+        width: 1278
+        height: 834
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 71bba4176cb79e130800000000000000
-      internalID: 3596541869666515735
+      spriteID: 1645039da739908d0800000000000000
+      internalID: -2879608330887605151
       vertices: []
       indices: 
       edges: []

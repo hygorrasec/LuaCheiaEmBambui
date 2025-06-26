@@ -176,7 +176,7 @@ MonoBehaviour:
   itemNotificationImage: {fileID: 7765446503745919184, guid: 0a9256610f9f4a54e9e31f8e49816eba, type: 3}
   sceneName: As Capivaras da Restinga
   sequenceOrder: 12
-  correctSound: {fileID: 0}
+  correctSound: {fileID: 8300000, guid: 7cd8840d14592a6488dce01a427cfd4c, type: 3}
 --- !u!114 &103581272
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -788,7 +788,7 @@ MonoBehaviour:
   itemNotificationImage: {fileID: -1448758348671018224, guid: cf676c0461d136643bbd36af90822d16, type: 3}
   sceneName: A Areia da Praia
   sequenceOrder: 13
-  correctSound: {fileID: 0}
+  correctSound: {fileID: 8300000, guid: 437ed4e5ebe727d4494531e550a4ce7d, type: 3}
 --- !u!114 &672088078
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -913,7 +913,7 @@ MonoBehaviour:
   itemNotificationImage: {fileID: -7113511570065300038, guid: b343b0a8f15e1fc4d81ea92454385383, type: 3}
   sceneName: "O Ponto de \xD4nibus Abandonado"
   sequenceOrder: 9
-  correctSound: {fileID: 0}
+  correctSound: {fileID: 8300000, guid: 80b68ef77f8072c46905fd267abaabb8, type: 3}
 --- !u!114 &790038926
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1316,7 +1316,7 @@ MonoBehaviour:
   itemNotificationImage: {fileID: 5529783958125180199, guid: b030dd39bbe0d8840ba2854afc13d917, type: 3}
   sceneName: O Poste da Poesia
   sequenceOrder: 11
-  correctSound: {fileID: 0}
+  correctSound: {fileID: 8300000, guid: ec517b72c1eb4dd4bac17f7f7c730231, type: 3}
 --- !u!1 &1445061933
 GameObject:
   m_ObjectHideFlags: 0
@@ -1549,7 +1549,7 @@ MonoBehaviour:
   itemNotificationImage: {fileID: 3596541869666515735, guid: fe05301c848a40543b8d32b1ca4c5b01, type: 3}
   sceneName: O Quiosque das Conchas
   sequenceOrder: 10
-  correctSound: {fileID: 0}
+  correctSound: {fileID: 8300000, guid: a7d49a1eabdd4df439108e87fc50ff74, type: 3}
 --- !u!114 &1760878945
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1670,9 +1670,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nextSceneName: "Bambu\xED"
   requiredItemIDs: 090000000a0000000b0000000c0000000d000000
-  exitNotificationImage: {fileID: 0}
-  soundText: {fileID: 0}
-  exitSound: {fileID: 0}
+  exitNotificationImage: {fileID: -8005580872084853557, guid: e8210c704193fc8468e1846f14932841, type: 3}
+  soundText: {fileID: 8300000, guid: 4f0491ba78ec0b54daa1c6a002d810d1, type: 3}
+  exitSound: {fileID: 8300000, guid: 793785ee2487e0b40a883e7ab4afb5f5, type: 3}
 --- !u!114 &1888244211
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b343b0a8f15e1fc4d81ea92454385383
+guid: 9e88a67ae43f136419c529f8704b506d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7113511570065300038
-    second: ITAIPUACU - PONTO DE ONIBUS_0
+      213: -1065700185490326338
+    second: Restaurante Mistura_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,13 +139,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ITAIPUACU - PONTO DE ONIBUS_0
+      name: Restaurante Mistura_0
       rect:
         serializedVersion: 2
-        x: 129
-        y: 98
-        width: 1275
-        height: 833
+        x: 128
+        y: 99
+        width: 1278
+        height: 832
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ab560a08aeab74d90800000000000000
-      internalID: -7113511570065300038
+      spriteID: ebcf7ced35fd531f0800000000000000
+      internalID: -1065700185490326338
       vertices: []
       indices: 
       edges: []
