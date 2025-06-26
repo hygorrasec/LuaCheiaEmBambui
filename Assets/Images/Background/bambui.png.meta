@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bambui_0: -8959395119462103301
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

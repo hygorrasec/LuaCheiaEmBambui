@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "itaipua\xE7u_0": -805083402706100695
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -6,11 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 2d597a1cc0e0c444cb1bb730bf41fedb
+  - enabled: 1
     path: "Assets/Scenes/Ino\xE3.unity"
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
     path: "Assets/Scenes/Maric\xE1.unity"
-    guid: b3834c6c6cd726443b46599c92f4fe54
+    guid: 92bad2ce6a16e414cb4c6bd1e2b182e7
   - enabled: 1
     path: "Assets/Scenes/Itaipua\xE7\xFA.unity"
     guid: 927ef85950477f04ba45013338d84aec
@@ -25,10 +28,7 @@ EditorBuildSettings:
     guid: 4e38f538099ab1641aa5e1b609c78176
   - enabled: 1
     path: Assets/Scenes/Bar.unity
-    guid: 4737520c5fa51c742908a3e0bba56c5c
-  - enabled: 1
-    path: Assets/Scenes/Menu.unity
-    guid: 2d597a1cc0e0c444cb1bb730bf41fedb
+    guid: 296167b16bc0bcf469645a9e53edc1ff
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

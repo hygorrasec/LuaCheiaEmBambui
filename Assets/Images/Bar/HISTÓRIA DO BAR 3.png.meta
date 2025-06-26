@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "HIST\xD3RIA DO BAR 3_0": 8813213016309839528
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

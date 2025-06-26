@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "Invas\xE3o do Lobisomem_0": -6505814497372794815
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

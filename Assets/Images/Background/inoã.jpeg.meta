@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "ino\xE3_0": -1564946030097618518
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
